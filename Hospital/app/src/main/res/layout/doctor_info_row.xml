@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearslider"
+            android:background="#FFFFFF">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0000"
+                android:textColor="#171717"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/doctor_info_text1"
+                android:textSize="24dp"
+                android:background="#E3E3E3"
+                android:textColor="#171717"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/doctor_info_text2"
+                android:layout_marginBottom="5dp"
+                android:background="#E3E3E3"
+                android:textSize="24dp"
+                android:textColor="#171717"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/doctor_info_text3"
+                android:layout_marginBottom="5dp"
+                android:background="#E3E3E3"
+                android:textSize="24dp"
+                android:textColor="#171717"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/doctor_info_text4"
+                android:background="#E3E3E3"
+                android:layout_marginBottom="5dp"
+                android:textSize="24dp"
+                android:textColor="#171717"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
